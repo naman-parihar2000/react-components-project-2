@@ -1,4 +1,3 @@
-import React from 'react';
 import classNames from 'classnames';
 
 function Panel({ children, className, ...rest }) {
@@ -6,9 +5,12 @@ function Panel({ children, className, ...rest }) {
         'border rounded p-3 shadow bg-white w-full',
         className
     );
+
     return (
-        <div {...rest} className={finalClassNames}>{children}</div>
-    )
+        <div {...rest} className={finalClassNames}>
+            {children}
+        </div>
+    );
 }
 
-export default Panel
+export default Panel;
