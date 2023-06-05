@@ -2,16 +2,16 @@ import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go';
 import Button from '../components/Button';
 
 function ButtonPage() {
-  const handleClick = () => {
-  };
+  const handleClick = () => {};
 
   return (
-    <div>
+    <div className='flex flex-row gap-5'>
       <div>
         <Button
           secondary
           outline
           rounded
+          className="mb-5"
           onClick={handleClick}
         >
           <GoBell />
