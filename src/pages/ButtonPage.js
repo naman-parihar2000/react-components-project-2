@@ -15,7 +15,7 @@ function ButtonPage() {
           onClick={handleClick}
         >
           <GoBell />
-          Click me!!
+          Click me!
         </Button>
       </div>
       <div>
